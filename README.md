@@ -1,5 +1,8 @@
 # DevOps Portfolio Website 🚀
 
+## 🌐 Live Demo
+https://new-project-production.up.railway.app
+
 ## 📌 Overview
 
 This project is a containerized portfolio website built as part of my DevOps learning journey. It demonstrates the use of Docker, Git, and CI/CD practices in a Linux-based development environment.
