@@ -1,86 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Areeba Waqas | DevOps Intern Portfolio</title>
+    <title>Areeba Waqas | DevOps Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header>
-    <h1>Areeba Waqas</h1>
-    <p>BSCS Student | Aspiring DevOps & Cloud Engineer</p>
-</header>
+    <!-- HERO SECTION -->
+    <header class="hero">
 
-<nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#devops">DevOps Experience</a>
-    <a href="#contact">Contact</a>
-</nav>
+        <div class="hero-content">
 
-<section id="about">
-    <h2>About Me</h2>
-    <p>
-        I am a DevOps enthusiast with a strong interest in automation, CI/CD pipelines, 
-        and cloud infrastructure. I am passionate about building scalable and efficient 
-        systems and continuously learning modern DevOps practices.
-    </p>
-</section>
+            <h1>Areeba Waqas</h1>
 
-<section id="skills">
-    <h2>Technical Skills</h2>
-    <ul>
-        <li>Linux & Shell Commands</li>
-        <li>Git & GitHub</li>
-        <li>Docker (Containerization)</li>
-        <li>CI/CD (GitHub Actions - Basic)</li>
-        <li>AWS (Basic Knowledge)</li>
-        <li>HTML & CSS</li>
-    </ul>
-</section>
+            <p class="tagline">
+                DevOps & Cloud Enthusiast | Docker • CI/CD • Linux • Cloud
+            </p>
 
-<section id="projects">
-    <h2>Projects</h2>
+            <p class="sub-tagline">
+                Containerized • CI/CD Enabled • Cloud Deployed
+            </p>
 
-    <div class="project">
-        <h3>DevOps Portfolio Website</h3>
+            <div class="hero-buttons">
+
+                <a href="https://new-project-production-21bf.up.railway.app/"
+                    target="_blank"
+                    class="btn">
+                    🌐 Live Demo
+                </a>
+
+                <a href="https://github.com/areeba-waqas/new-project"
+                    target="_blank"
+                    class="btn secondary-btn">
+                    📂 GitHub Repository
+                </a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- NAVIGATION -->
+    <nav>
+
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#workflow">Workflow</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <div class="card">
+
+            <p>
+                I am a Computer Science student with hands-on experience
+                in Linux, Docker, GitHub Actions, and cloud deployment workflows.
+                I enjoy building containerized applications, automating deployment
+                pipelines, and continuously improving my DevOps and cloud engineering skills.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS SECTION -->
+    <section id="skills">
+
+        <h2>Technical Skills</h2>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+
+                <h3>DevOps & Cloud</h3>
+
+                <ul>
+                    <li>Docker</li>
+                    <li>GitHub Actions (CI/CD)</li>
+                    <li>Linux (WSL Ubuntu)</li>
+                    <li>AWS (Basic Knowledge)</li>
+                </ul>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <h3>Development Tools</h3>
+
+                <ul>
+                    <li>Git & GitHub</li>
+                    <li>Bash/Shell Commands</li>
+                    <li>Nginx</li>
+                </ul>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <h3>Frontend</h3>
+
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJECT SECTION -->
+    <section id="projects">
+
+        <h2>Featured Project</h2>
+
+        <div class="project-card">
+
+            <h3>DevOps Portfolio Website</h3>
+
+            <p>
+                Built and deployed a modern containerized portfolio website
+                using Docker and Nginx with automated CI/CD workflows
+                through GitHub Actions and cloud deployment on Railway.
+            </p>
+
+            <ul>
+
+                <li>Containerized application using Docker</li>
+
+                <li>Configured Nginx for lightweight web serving</li>
+
+                <li>Implemented CI/CD pipeline using GitHub Actions</li>
+
+                <li>Deployed live application on Railway cloud platform</li>
+
+                <li>Worked in Linux environment using WSL2 Ubuntu</li>
+
+                <li>Managed source control using Git & GitHub</li>
+
+            </ul>
+
+            <div class="project-buttons">
+
+                <a href="https://new-project-production-21bf.up.railway.app/"
+                    target="_blank"
+                    class="btn">
+                    🚀 View Live Demo
+                </a>
+
+                <a href="https://github.com/areeba-waqas/new-project"
+                    target="_blank"
+                    class="btn secondary-btn">
+                    📂 Source Code
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- WORKFLOW SECTION -->
+    <section id="workflow">
+
+        <h2>DevOps Workflow</h2>
+
+        <div class="workflow-container">
+
+            <div class="workflow-step">
+                <p>Code Changes</p>
+            </div>
+
+            <div class="arrow">⬇</div>
+
+            <div class="workflow-step">
+                <p>Git Push to GitHub</p>
+            </div>
+
+            <div class="arrow">⬇</div>
+
+            <div class="workflow-step">
+                <p>GitHub Actions CI/CD</p>
+            </div>
+
+            <div class="arrow">⬇</div>
+
+            <div class="workflow-step">
+                <p>Docker Image Build</p>
+            </div>
+
+            <div class="arrow">⬇</div>
+
+            <div class="workflow-step">
+                <p>Railway Deployment</p>
+            </div>
+
+            <div class="arrow">⬇</div>
+
+            <div class="workflow-step">
+                <p>Live Portfolio Website 🌐</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience">
+
+        <h2>DevOps Exposure</h2>
+
+        <div class="card">
+
+            <ul>
+
+                <li>Built and tested Docker containers</li>
+
+                <li>Worked with CI/CD pipelines using GitHub Actions</li>
+
+                <li>Basic understanding of AWS cloud services</li>
+
+                <li>Experience with Linux environment and terminal workflows</li>
+
+                <li>Version control using Git and GitHub</li>
+
+            </ul>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+
+        <h2>Contact</h2>
+
+        <div class="contact-card">
+
+            <p>
+                📧 Email:
+                <a href="mailto:areeba.waqas.dev@gmail.com">
+                    areeba.waqas.dev@gmail.com
+                </a>
+            </p>
+
+            <p>
+                💻 GitHub:
+                <a href="https://github.com/areeba-waqas"
+                    target="_blank">
+                    github.com/areeba-waqas
+                </a>
+            </p>
+
+            <p>
+                🌐 Live Website:
+                <a href="https://new-project-production-21bf.up.railway.app/"
+                    target="_blank">
+                    new-project-production-21bf.up.railway.app
+                </a>
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
         <p>
-            Developed and deployed a personal portfolio website using Docker and Nginx.
+            © 2026 Areeba Waqas | DevOps Portfolio
         </p>
 
-        <ul>
-            <li>Containerized application using Docker</li>
-            <li>Deployed using Nginx inside container</li>
-            <li>Built CI/CD pipeline using GitHub Actions</li>
-            <li>Developed in Linux (WSL2 Ubuntu environment)</li>
-        </ul>
-    </div>
-
-</section>
-
-<section id="devops">
-    <h2>DevOps Exposure</h2>
-    <ul>
-        <li>Built and tested Docker containers</li>
-        <li>Worked with CI/CD pipelines using GitHub Actions</li>
-        <li>Basic understanding of cloud platforms (AWS)</li>
-        <li>Experience with Linux environment and terminal workflows</li>
-        <li>Version control using Git and GitHub</li>
-    </ul>
-</section>
-
-<section id="contact">
-    <h2>Contact</h2>
-    <p>Email: ssc.areeba.191323gmail.com</p>
-    <p>GitHub: https://github.com/yourusername</p>
-</section>
-
-<footer>
-    <p>© 2026 Areeba Waqas | DevOps Portfolio</p>
-</footer>
+    </footer>
 
 </body>
+
 </html>

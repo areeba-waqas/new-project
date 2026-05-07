@@ -1,0 +1,149 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #0b1220;
+    color: #e5e7eb;
+    line-height: 1.6;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 70px 20px;
+    background: linear-gradient(135deg, #0f172a, #020617);
+    border-bottom: 1px solid #1f2937;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #38bdf8;
+    letter-spacing: 1px;
+}
+
+header p {
+    margin-top: 10px;
+    color: #94a3b8;
+    font-size: 1.1rem;
+}
+
+/* BADGE */
+.badge {
+    margin-top: 15px;
+    display: inline-block;
+    padding: 8px 16px;
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 20px;
+    color: #facc15;
+    font-size: 0.9rem;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 15px;
+    background: #020617;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid #1f2937;
+}
+
+nav a {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+/* SECTIONS */
+section {
+    max-width: 900px;
+    margin: auto;
+    padding: 60px 20px;
+}
+
+/* HEADINGS */
+h2 {
+    color: #38bdf8;
+    margin-bottom: 20px;
+    border-left: 4px solid #38bdf8;
+    padding-left: 12px;
+}
+
+/* TEXT */
+p {
+    color: #cbd5e1;
+}
+
+/* SKILLS LIST */
+ul {
+    list-style: none;
+}
+
+ul li {
+    background: #111827;
+    margin: 10px 0;
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 1px solid #1f2937;
+    transition: 0.3s;
+}
+
+ul li:hover {
+    transform: translateX(5px);
+    border-color: #38bdf8;
+}
+
+/* PROJECT CARD */
+.project {
+    background: #111827;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #1f2937;
+    transition: 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    border-color: #38bdf8;
+}
+
+.project h3 {
+    color: #facc15;
+    margin-bottom: 10px;
+}
+
+/* CONTACT */
+#contact p {
+    margin-top: 8px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #020617;
+    border-top: 1px solid #1f2937;
+    color: #64748b;
+    margin-top: 40px;
+}
